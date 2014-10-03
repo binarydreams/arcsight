@@ -1,0 +1,13 @@
+{
+  "author": "James Whiteley",
+  "dependencies": [],
+  "license": "Apache 2.0",
+  "name": "whiteley-arcsight",
+  "operatingsystem_support": [],
+  "project_page": "https://forge.puppetlabs.com/jameswhiteley/arcsight",
+  "requirements": [],
+  "source": "https://github.com/jameswhiteley/arcsight.git",
+  "summary": "This is a module for HP's Arcsight that currently supports base parameters and tweaks for ArcSight ESM and Connectors.",
+  "tags": [],
+  "version": "0.1.0"
+}
