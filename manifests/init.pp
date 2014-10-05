@@ -13,13 +13,11 @@
 class arcsight {
   
   group { "arcsight" :
-    ensure => present,
-    gid => 8843,
+    ensure => present,    
   }
     
   user { "arcsight" :
     ensure => present,
-    uid => 8843,
     managehome => true,
     shell => '/bin/bash',
     expiry => 'absent',
