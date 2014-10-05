@@ -11,6 +11,7 @@
 # Sample Usage:
 #
 class arcsight {
+  
   group { "arcsight" :
     ensure => present,
     gid => 8843,
@@ -21,7 +22,7 @@ class arcsight {
     uid => 8843,
     managehome => true,
     shell => '/bin/bash',
-    expiry => absent,
+    expiry => 'absent',
     gid => 'arcsight',
     password => '!!'
   }
